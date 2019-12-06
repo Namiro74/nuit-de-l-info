@@ -7,8 +7,18 @@ require_once("/var/www/include/utils.inc.php");
 
 Bdd::dbConnect();
 
-if(empty($_POST['pseudo']) || empty($_POST['pass']) || empty($_POST['email'])) {
+if(empty($_POST['pseudo']) || empty($_POST['pass']) || empty($_POST['email']) || empty($_POST['recaptcha_response'])) {
 	header("Location: /account/create.php?error=fields");
+	exit;
+}
+
+$recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+$recaptcha_secret = '6LePXcYUAAAAALPAcJayIZKtDsW9Ok7XT6ulLp-e';
+$recaptcha_response = $_POST['recaptcha_response'];
+$recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+$recaptcha = json_decode($recaptcha);
+if ($recaptcha->score < 0.5) {
+	header("Location: /account/create.php?error=recaptcha");
 	exit;
 }
 

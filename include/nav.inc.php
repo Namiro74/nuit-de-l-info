@@ -3,16 +3,18 @@
 		<li>
 			Infos pratiques
 			<ul>
-				<li>Logement</li>
-				<li>Budget</li>
-				<li>Santé</li>
+				<li><a href="/solutions.php?title=logement">Logement</a></li>
+				<li><a href="/solutions.php?title=budget">Budget</a></li>
+				<li><a href="/solutions.php?title=mobilite">Mobilité</a></li>
+				<li><a href="/solutions.php?title=sorties">Sorties</a></li>
+				<li><a href="/solutions.php?title=ecologie">Écologie</a></li>
 			</ul>
 		</li>
 		<li>
 			Contact entre étudiants
 			<ul>
-				<li>Rechercher une question existante</li>
-				<li>Poser une nouvelle question</li>
+				<li><a href="/discuss/">Consulter les questions posées</a></li>
+				<li><a href="/discuss/">Poser une nouvelle question</a></li>
 			</ul>
 		</li>
 		<li>

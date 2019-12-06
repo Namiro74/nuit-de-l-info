@@ -82,7 +82,7 @@ header div
 
 .menu
 {
-	padding: 5px;
+	padding: 20px;
 }
 
 .corps
@@ -137,10 +137,57 @@ nav
 	align-items: center;
 }
 
+nav a
+{
+	/*text-decoration: none;*/
+}
+
+nav a:hover
+{
+	color: green;
+	text-decoration: none;
+}
+
+nav a:visited
+{
+	color: black;
+}
+
 a img
 {
 	width: 200px;
 	height: 133px;
+}
+
+.formquestion
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+}
+
+.listequestions
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+}
+
+.corpsquestions
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.corpsquestion
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
 }
 
 /*-------------------------------------------------------------*/

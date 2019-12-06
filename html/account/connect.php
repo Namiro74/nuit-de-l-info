@@ -10,6 +10,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link href="/style.css" rel="stylesheet">
+		<link rel="icon" href="/images/logo.jpeg" />
 		<title>Connexion</title>
 	</head>
 	<?php

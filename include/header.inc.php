@@ -6,7 +6,7 @@
 			{
 		?>
 
-		<div class="element"><h1>Bonjour, <?php echo($_SESSION["pseudo"]); ?> !</h1></div>
+		<div class="element"><h1>Bonjour, <?php echo(htmlentities($_SESSION["pseudo"])); ?> !</h1></div>
 		<div class="element"><a class="bouton" href="/account/back/disconnect.php"><h1>Déconnexion</h1></a></div>
 		<?php
 			}

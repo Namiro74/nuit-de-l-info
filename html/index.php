@@ -4,6 +4,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link href="/style.css" rel="stylesheet">
+		<link rel="icon" href="/images/logo.jpeg" />
 		<title>PLOUF, à l'aide !!</title> 
 	</head>
 	<?php
@@ -18,11 +19,11 @@
 			<div class="corps">
 				<p class="txtcorps">Infos pratiques par thèmes</p>
 				<div class="liens">
-					<div class="imgtxt"><a href=""><img src="/images/Mobilité.png" /></a><p><a href="">Mobilité</a></p></div>
-					<div class="imgtxt"><a href=""><img src="/images/habitat.jpg" /></a><p><a href="">Logement</a></p></div>
-					<div class="imgtxt"><a href=""><img src="/images/vivre-avec-petit-budget.jpg" /></a><p><a href="">Petit budget</a></p></div>
-					<div class="imgtxt"><a href=""><img src="/images/sorties.JPG" /></a><p><a href="">Sorties</a></p></div>
-					<div class="imgtxt"><a href=""><img src="/images/ecologie.jpeg" /></a><p><a href="">Ecologie</a></p></div>
+					<div class="imgtxt"><a href="/solutions.php?title=mobilite"><img src="/images/Mobilité.png" /><p>Mobilité</a></p></div>
+					<div class="imgtxt"><a href="/solutions.php?title=logement"><img src="/images/habitat.jpg" /><p>Logement</a></p></div>
+					<div class="imgtxt"><a href="/solutions.php?title=budget"><img src="/images/vivre-avec-petit-budget.jpg" /><p>Petit budget</a></p></div>
+					<div class="imgtxt"><a href="/solutions.php?title=sorties"><img src="/images/sorties.JPG" /><p>Sorties</a></p></div>
+					<div class="imgtxt"><a href="/solutions.php?title=ecologie"><img src="/images/ecologie.jpeg" /><p>Ecologie</a></p></div>
 				</div>
 				<p class="txtcorps"><a href="/discuss/" class="questioncorps">Discussion</a></p>
 			</div>
